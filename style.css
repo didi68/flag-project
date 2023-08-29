@@ -92,3 +92,47 @@
     border-radius: 50%;
     left: 300px;
 }
+
+@media (min-width: 319px) and (max-width: 480px) {
+  /*for mobile devices between 319px - 480px */
+  /*For the Greece Flag */
+.project {
+    display: none;
+}
+
+/*For the Nigeria Flag */
+.flag {
+    width: 200px;
+    height: 180px;
+}
+
+.flag > div > p {
+    width: 70px;
+    height: 181px;
+    left: 63px;
+}
+
+/*For the Niger Flag */
+.niger {
+    left: 0px;
+    width:200px;
+    height: 200px;
+}
+
+.middle{
+    width: 200px;
+    height: 70px;
+}
+
+.pain {
+    width: 70px;
+    height: 70px;
+    left: 65px;
+    top: 7px;
+}
+
+.last {
+    width: 200px;
+    height: 70px;
+}
+}
