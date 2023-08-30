@@ -136,3 +136,49 @@
     height: 70px;
 }
 }
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  /*for ipads and tablets between 481px - 1200px */
+  /*For the Greece Flag */
+  .project {
+    position: relative;
+    display: block;
+    height: 100px;
+    width: 465px;
+    left: 0px;
+  }
+
+  /*For the Nigeria Flag */
+  .flag {
+    width: 465px;
+    height: 300px;
+  }
+
+  .flag > div > p {
+    left: 150px;
+    width: 150px;
+    height: 301px;
+  }
+
+  /*For the Niger Flag */
+  .niger {
+    position: relative;
+    display: block;
+    top: 420px;
+    width: 465px;
+    left: 0px;
+    height: 335px;
+  }
+
+  .middle {
+    height: 100px;
+  }
+
+  .last {
+    height: 85px;
+  }
+
+  .pain {
+    left: 180px;
+  }
+}
